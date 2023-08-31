@@ -13,6 +13,11 @@
 		F8337A482A8DF49300C4C5E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8337A462A8DF49300C4C5E6 /* Main.storyboard */; };
 		F8337A4A2A8DF49400C4C5E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8337A492A8DF49400C4C5E6 /* Assets.xcassets */; };
 		F8337A4D2A8DF49400C4C5E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8337A4B2A8DF49400C4C5E6 /* LaunchScreen.storyboard */; };
+		F8337A552A910BD700C4C5E6 /* Apple2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F8337A542A910BD700C4C5E6 /* Apple2.jpeg */; };
+		F8337A572A910BE100C4C5E6 /* Apple3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F8337A562A910BE100C4C5E6 /* Apple3.jpeg */; };
+		F8337A592A910BEA00C4C5E6 /* Apple4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F8337A582A910BEA00C4C5E6 /* Apple4.jpeg */; };
+		F8337A5B2A910BF900C4C5E6 /* Apple.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F8337A5A2A910BF900C4C5E6 /* Apple.jpeg */; };
+		F8337A5D2A9117CA00C4C5E6 /* ExpansionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8337A5C2A9117CA00C4C5E6 /* ExpansionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		F8337A492A8DF49400C4C5E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8337A4C2A8DF49400C4C5E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8337A4E2A8DF49400C4C5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8337A542A910BD700C4C5E6 /* Apple2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Apple2.jpeg; sourceTree = "<group>"; };
+		F8337A562A910BE100C4C5E6 /* Apple3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Apple3.jpeg; sourceTree = "<group>"; };
+		F8337A582A910BEA00C4C5E6 /* Apple4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Apple4.jpeg; sourceTree = "<group>"; };
+		F8337A5A2A910BF900C4C5E6 /* Apple.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Apple.jpeg; sourceTree = "<group>"; };
+		F8337A5C2A9117CA00C4C5E6 /* ExpansionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpansionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +69,15 @@
 				F8337A402A8DF49300C4C5E6 /* AppDelegate.swift */,
 				F8337A422A8DF49300C4C5E6 /* SceneDelegate.swift */,
 				F8337A442A8DF49300C4C5E6 /* ViewController.swift */,
+				F8337A5C2A9117CA00C4C5E6 /* ExpansionViewController.swift */,
 				F8337A462A8DF49300C4C5E6 /* Main.storyboard */,
 				F8337A492A8DF49400C4C5E6 /* Assets.xcassets */,
 				F8337A4B2A8DF49400C4C5E6 /* LaunchScreen.storyboard */,
 				F8337A4E2A8DF49400C4C5E6 /* Info.plist */,
+				F8337A5A2A910BF900C4C5E6 /* Apple.jpeg */,
+				F8337A542A910BD700C4C5E6 /* Apple2.jpeg */,
+				F8337A562A910BE100C4C5E6 /* Apple3.jpeg */,
+				F8337A582A910BEA00C4C5E6 /* Apple4.jpeg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -128,6 +143,10 @@
 				F8337A4D2A8DF49400C4C5E6 /* LaunchScreen.storyboard in Resources */,
 				F8337A4A2A8DF49400C4C5E6 /* Assets.xcassets in Resources */,
 				F8337A482A8DF49300C4C5E6 /* Main.storyboard in Resources */,
+				F8337A592A910BEA00C4C5E6 /* Apple4.jpeg in Resources */,
+				F8337A552A910BD700C4C5E6 /* Apple2.jpeg in Resources */,
+				F8337A572A910BE100C4C5E6 /* Apple3.jpeg in Resources */,
+				F8337A5B2A910BF900C4C5E6 /* Apple.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8337A5D2A9117CA00C4C5E6 /* ExpansionViewController.swift in Sources */,
 				F8337A452A8DF49300C4C5E6 /* ViewController.swift in Sources */,
 				F8337A412A8DF49300C4C5E6 /* AppDelegate.swift in Sources */,
 				F8337A432A8DF49300C4C5E6 /* SceneDelegate.swift in Sources */,
